@@ -359,6 +359,8 @@ picture .corte{
    align-items: center;
    margin: 10px;
    padding: 10px;
+   position: relative;
+   left: 15px;
 }
 .instagram h2{
     margin: 5px;
@@ -368,17 +370,15 @@ picture .corte{
     letter-spacing: 2px;
     font-size: 2em;
 }
-.instagram p{
-    text-align: justify;
+aside .paragrafo-instagram{
+    font-family: var(--fonte-02);
+    word-wrap: break-word;
+    line-height: 1.6em;
+    
 }
-
 .imagem-instagram{
     position: relative;
     top: 5px;
-}
-.instagram p{
-    color: black;
-    font-family: var(--fonte-02);
 }
 
 footer{

@@ -318,13 +318,16 @@ header{
 }
 
 .instagram{
-    text-align: justify;
+    text-align: center;
    background-color: white;
    margin: auto;
    margin: 10px;
    padding: 10px;
    border-radius: 5px;
 
+}
+.instagram p{
+    text-align: center;
 }
 .instagram p a{
     text-decoration: none;
@@ -353,7 +356,7 @@ picture .local{
     width: 282px;
 }
 picture .corte{
-   margin: auto;
+   align-items: center;
    margin: 10px;
    padding: 10px;
 }

@@ -353,6 +353,7 @@ picture .local{
     width: 282px;
 }
 picture .corte{
+   margin: auto;
    margin: 10px;
    padding: 10px;
 }
@@ -364,6 +365,10 @@ picture .corte{
     letter-spacing: 2px;
     font-size: 2em;
 }
+.instagram p{
+    text-align: justify;
+}
+
 .imagem-instagram{
     position: relative;
     top: 5px;

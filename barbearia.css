@@ -1,0 +1,408 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --fonte-01:'Bebas Neue', cursive;
+    --fonte-02: 'Inter', cursive;
+    --cor1: #121212;
+    --cor2: #2B2B2B;
+    --cor3: #6D6D6D;
+    --cor4: #F5F5F5;
+    --cor5: #B89A74;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #141414;
+    text-align: justify;
+    width: 100%;
+    overflow-x: hidden;;
+}
+header{
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2));
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*.subtitulo{
+    color: white;
+    font-family: var(--fonte-01);
+    letter-spacing: 2px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 2em;
+    display: ;
+}*/
+.titulo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.titulo img{
+    width: 80px;
+    height: 80px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.titulo h1{
+    text-shadow: 2px 2px 2px black;
+    font-size: 2.5em;
+    font-family: var(--fonte-01);
+    margin: 0px;
+    letter-spacing: 2px;
+}
+.cabeçalho-barbearia nav{
+    
+    position: relative;
+    right: 50px;
+    border-radius: 2px;
+    display: flex;
+    gap: 20px;
+    width: 326px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.cabeçalho-barbearia nav a{
+    margin: 10px;
+    text-indent: 20px;
+    text-decoration: none;
+    font-family: var(--fonte-01);
+    letter-spacing: 2px;
+    color: black;
+}
+.cabeçalho-barbearia nav a:hover{
+    transition-duration: 0.5s;
+    border-radius: 2px;
+    text-decoration: underline;
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2));
+    color: white;
+}
+
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px
+}
+
+
+
+#corte #barba #corte-pigmentacao #corte-barba{
+    max-width: 400px;
+}
+
+.planos #corte{
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(to right, var(--cor2), var(--cor3));
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+}
+.planos #corte h3{
+    font-size: 1.5em;
+    text-shadow: 1px 0.5px 2px black;
+    letter-spacing: 2px;
+    font-family: var(--fonte-01);
+    text-align: center;
+}
+.planos #corte p{
+    margin: 5px;
+    padding: 5px;
+    font-family: var(--fonte-02);
+}
+.planos #corte ul{
+    list-style-position: inside;
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    font-family: var(--fonte-02);
+}
+.planos #corte ul li{
+    margin-bottom: 5px;
+}
+.planos #corte ul li::after{
+    content: '✔';
+    margin: 10px;
+}
+.planos #corte .paragrafo{
+    margin: auto;
+    width: 307px;
+    border-radius: 3px;
+    background-color: var(--cor2);
+}
+.planos #corte .agendamento{
+    font-family: var(--fonte-02);
+    text-align: center;
+    text-decoration: none;
+}
+.planos #corte .agendamento a{
+    text-decoration: none;
+    color: white;
+}
+.planos #corte .agendamento a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.planos #barba{
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(to right, var(--cor2), var(--cor3));
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+}
+.planos #barba h3{
+    font-size: 1.5em;
+    text-shadow: 1px 0.5px 2px black;
+    letter-spacing: 2px;
+    font-family: var(--fonte-01);
+    text-align: center;
+}
+.planos #barba p{
+    margin: 5px;
+    padding: 5px;
+    font-family: var(--fonte-02);
+}
+.planos #barba ul{
+    list-style-position: inside;
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    font-family: var(--fonte-02);
+}
+.planos #barba ul li{
+    margin-bottom: 5px;
+}
+.planos #barba ul li::after{
+    content: '✔';
+    margin: 10px;
+}
+.planos #barba .paragrafo{
+    margin: auto;
+    width: 307px;
+    border-radius: 3px;
+    background-color: var(--cor2);
+}
+.planos #barba .agendamento{
+    font-family: var(--fonte-02);
+    text-align: center;
+    text-decoration: none;
+}
+.planos #barba .agendamento a{
+    text-decoration: none;
+    color: white;
+}
+.planos #barba .agendamento a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+
+.planos #corte-barba{
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(to right, var(--cor2), var(--cor3));
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+}
+.planos #corte-barba h3{
+    font-size: 1.5em;
+    text-shadow: 1px 0.5px 2px black;
+    letter-spacing: 2px;
+    font-family: var(--fonte-01);
+    text-align: center;
+}
+.planos #corte-barba p{
+    margin: 5px;
+    padding: 5px;
+    font-family: var(--fonte-02);
+}
+.planos #corte-barba ul{
+    list-style-position: inside;
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    font-family: var(--fonte-02);
+}
+.planos #corte-barba ul li{
+    margin-bottom: 5px;
+}
+.planos #corte-barba ul li::after{
+    content: '✔';
+    margin: 10px;
+}
+.planos #corte-barba .paragrafo{
+    margin: auto;
+    width: 307px;
+    border-radius: 3px;
+    background-color: var(--cor2);
+}
+.planos #corte-barba .agendamento{
+    font-family: var(--fonte-02);
+    text-align: center;
+    text-decoration: none;
+}
+.planos #corte-barba .agendamento a{
+    text-decoration: none;
+    color: white;
+}
+.planos #corte-barba .agendamento a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.planos #corte-pigmentacao{
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(to right, var(--cor2), var(--cor3));
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+}
+.planos #corte-pigmentacao h3{
+    font-size: 1.5em;
+    text-shadow: 1px 0.5px 2px black;
+    letter-spacing: 2px;
+    font-family: var(--fonte-01);
+    text-align: center;
+}
+.planos #corte-pigmentacao p{
+    margin: 5px;
+    padding: 5px;
+    font-family: var(--fonte-02);
+}
+.planos #corte-pigmentacao ul{
+    list-style-position: inside;
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    font-family: var(--fonte-02);
+}
+.planos #corte-pigmentacao ul li{
+    margin-bottom: 5px;
+}
+.planos #corte-pigmentacao ul li::after{
+    content: '✔';
+    margin: 10px;
+}
+.planos #corte-pigmentacao .paragrafo{
+    margin: auto;
+    width: 307px;
+    border-radius: 3px;
+    background-color: var(--cor2);
+}
+.planos #corte-pigmentacao .agendamento{
+    font-family: var(--fonte-02);
+    text-align: center;
+    text-decoration: none;
+}
+.planos #corte-pigmentacao .agendamento a{
+    text-decoration: none;
+    color: white;
+}
+.planos #corte-pigmentacao .agendamento a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.instagram{
+   background-color: white;
+   margin: auto;
+   margin: 10px;
+   padding: 10px;
+   border-radius: 5px;
+   text-align: center;
+
+}
+.instagram p a{
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+}
+.instagram p a:hover{
+    transition-duration: 0.5s;
+    background-image: linear-gradient(to right, var(--cor1), var(--cor3));
+    color: white;
+    text-decoration: underline;
+}
+picture{
+    margin: 10px;
+}
+picture .foto{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+picture .local{
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    height: 280px;
+    width: 282px;
+}
+picture .corte{
+   margin: 10px;
+   padding: 10px;
+}
+.instagram h2{
+    margin: 5px;
+    padding: 5px;
+    color: black;
+    font-family: var(--fonte-01);
+    letter-spacing: 2px;
+    font-size: 2em;
+}
+.imagem-instagram{
+    position: relative;
+    top: 5px;
+}
+.instagram p{
+    color: black;
+    font-family: var(--fonte-02);
+}
+
+footer{
+   background-color: var(--cor2);
+   color: white;
+   text-decoration: none;
+   margin: auto;
+   width: 350px;
+   text-align: center;
+   font-family: var(--fonte-02);
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    transition-duration: 0.5s;
+    background-image: linear-gradient(to right, var(--cor1), var(--cor3));
+}
+
+
+
+.planos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+/* Coloque isso no final do arquivo */
+@media (max-width: 768px){
+    .planos{
+        grid-template-columns: 1fr;
+    }
+}

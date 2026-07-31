@@ -1,0 +1,101 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --fonte-01:'Bebas Neue', cursive;
+    --fonte-02: 'Inter', cursive;
+    --cor1: #121212;
+    --cor2: #2B2B2B;
+    --cor3: #6D6D6D;
+    --cor4: #F5F5F5;
+    --cor5: #B89A74;
+}
+
+body{
+    background-color: #141414;
+    text-align: justify;
+    width: 100%;
+    overflow-x: hidden;;
+}
+header{
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2));
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#titulo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.cabeçalho-cortes #titulo .logo{
+    width: 80px;
+    height: 80px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+#titulo h1{
+    text-shadow: 2px 2px 2px black;
+    font-size: 2.5em;
+    font-family: var(--fonte-01);
+    margin: 0px;
+    letter-spacing: 2px;
+}
+.cabeçalho-cortes nav{
+    border-radius: 2px;
+    display: flex;
+    gap: 5px;
+    width: 450px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.cabeçalho-cortes nav a{
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+    font-family: var(--fonte-01);
+    letter-spacing: 2px;
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+.cabeçalho-cortes nav a:hover{
+    text-align: center;
+    transition-duration: 0.5s;
+    border-radius: 2px;
+    text-decoration: underline;
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2));
+    color: white;
+}
+main{
+    position: fixed;
+    align-content: center;
+    margin: auto;
+    display: flexbox;
+}
+.principal{
+    background-color: white;
+    max-width: 1200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+}
+.principal img{
+    align-items: center;
+    display: inline-block;
+    gap: 30px;
+    margin: auto;
+    margin: 0px;
+    height: 395px;
+    width: 395px;
+    border-radius: 5px;
+}
+
